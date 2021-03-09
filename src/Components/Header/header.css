@@ -1,0 +1,42 @@
+.top_nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(247, 245, 245);
+}
+.top_nav a{
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.menu_active{
+    font-weight: bold;
+    border-bottom:0.2rem solid #fff;
+   
+}
+.nav_div{
+    background-color: blue;
+    background-image: url("../../Images/crumb.png");
+    background-repeat: none;
+}
+.navbar_wrap{
+    justify-content: flex-end;
+    
+}
+.navbar_wrap li{
+    margin-left:2rem;
+    margin-right:2rem;
+}
+.nav-item a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+}
+.nav-item:hover{
+    text-decoration: underline;
+
+}
+
+.social_icon_head a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}

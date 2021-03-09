@@ -1,0 +1,109 @@
+
+/* About section */
+.story_wrap{
+  margin-top: -60px;
+  margin-bottom: 2rem;
+  background: #fff;
+  border: crimson;
+  border-radius: 5px;
+  width: 98%;
+  height: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 2px 2px 2px 2px rgb(245, 241, 241);
+
+}
+/* .about_wrap{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    height: 25rem;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 5px #888888;
+    margin-bottom: 5rem;
+} */
+.button_str_blu{
+    background-color: blue; 
+    border: none;
+  border-radius: 0.5rem;
+  color: #fff ;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+
+}
+
+.div_wrap{
+  height: 25rem;
+}
+.top_div{
+  height: 12rem;
+  padding: 5px 5px;
+
+}
+
+.bottom_div_left{
+  height: 12rem;
+  padding: 5px 5px;
+
+}
+.bottom_div_right{
+  height: 12rem;
+  padding: 5px 5px;
+
+}
+
+.img_contain{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img_contain1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.left_col h5{
+  font-size: 2rem;
+  color: blue;
+}
+.left_col h3{
+  font-size: 2.5rem;
+}
+.left_col h5 span{
+  color: blue;
+  font-weight: bold;
+}
+.left_col h3 span{
+  color: blue;
+  font-weight: bolder;
+}
+.left_col p{
+  font-size: 22px;
+
+}
+.line{
+  width: 10rem;
+  border: 5px solid blue;    
+}
+
+.vl{
+    border-left: 6px solid blue;
+  height: 100px;
+}
+
+.story_cont{
+  margin-top: 1rem;
+}
+.story_cont p{
+  font-size: 22px;
+  margin-left: 2rem;
+
+}

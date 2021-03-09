@@ -1,0 +1,246 @@
+.process_wrap{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/*  */
+.outerCircle{
+    background: blue;
+    position: relative;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.midCircle{
+    position: absolute;
+    background: #023e8a;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    /* margin: 0px 0px 0px 0px; */
+}
+.innerCicle{
+    position: absolute;
+    background: #03045e;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    /* margin: 0px 0px 0px 0px;  */
+}
+.innerCicle p{
+    color: #fff;
+    margin-left: 12px;
+    margin-top: 9px;
+}
+.line2{
+    width: 10rem;
+    border: 5px solid blue;
+    margin-bottom: 2rem;    
+  }
+
+  .dot_line{
+    background-repeat: repeat-x;
+    background-size: 3px 1px;
+    width: 10rem;
+    border: 1px dashed blue;
+  }
+  .circle_div{
+      align-items: center;
+    margin: auto;
+    width: 60%;
+    
+  }
+
+  .service-process {
+    /* background-color: #fafafa; */
+    position: relative;
+    
+}
+.wshipping-content-block {
+    padding: 80px 0px;
+}
+.service-process::before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* border-top: 1px dashed #cccccc; */
+    /* border-bottom: 1px dashed #fff; */
+    width: 100%;
+}
+*::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: #444444;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+p {
+    margin: 0 0 10px;
+}
+.process-row {
+    padding-top: 40px;
+}
+.process-step::before {
+    position: absolute;
+    right: -123px;
+    width: 110px;
+    height: 2px;
+    background-color: blue;
+    content: "";
+    top: 80px;
+    display: block;
+}
+
+.process-icon {
+    width: 164px;
+    text-align: center;
+    height: 164px;
+    float: left;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 2px solid blue;
+    position: relative;
+    padding-top: 44px;
+    margin-bottom: 10px;
+}
+.process-icon span {
+    width: 56px;
+    height: 56px;
+    background-color: blue;
+    border: 2px solid #fff;
+    color: #fff;
+    line-height: 56px;
+    font-size: 28px;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    margin-top: -30px;
+    border-radius: 100%;
+    font-weight: 700;
+}
+.process-step p {
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    clear: both;
+}
+.process-step p {
+    margin-bottom: 0px;
+}
+p {
+    margin: 0 0 10px;
+}
+.process-step {
+    float: left;
+    width: 164px;
+    margin-right: 14%;
+    position: relative;
+}
+.process-step:last-child {
+    margin-right: 0px;
+}
+.process-step:last-child::before
+ {
+display:none;
+}
+
+/*  */
+.container_wrap{
+    margin-top: 5rem;
+    /* background: grey; */
+
+}
+.container_wrap h5{
+    color: blue;
+    font-size: 1.5rem;
+}
+.container_wrap h5 span{
+    font-weight: bold;
+} 
+.container_wrap h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.container_wrap h2 span{
+    font-weight: 900;
+}
+.serviceBox{
+    color: #666;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 0 10px;
+}
+.serviceBox .service-icon{
+    color: blue;
+    background: #fff;
+    font-size: 60px;
+    line-height: 110px;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 50px;
+    border-radius: 50%;
+    border: 12px solid blue;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3) inset,0 15px 0 rgba(0,0,0,0.1);
+    position: relative;
+}
+.serviceBox .service-icon:before,
+.serviceBox .service-icon:after{
+    content: '';
+    background-color: blue;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    bottom: -33px;
+}
+.serviceBox .service-icon:after{
+    height: 12px;
+    width: 12px;
+    bottom: -50px;
+}
+.serviceBox .title{
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 7px;
+}
+.serviceBox .description{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.serviceBox.orange .title{ color: #FA8231; }
+.serviceBox.green .service-icon{
+    color: blue;
+    border-color: blue;
+}
+.serviceBox.green .service-icon:before,
+.serviceBox.green .service-icon:after{
+    background-color: blue;
+}
+.serviceBox.green .title{ color: blue; }
+
+@media only screen and (max-width: 990px){
+    .serviceBox{ margin: 0 0 30px; }
+}
