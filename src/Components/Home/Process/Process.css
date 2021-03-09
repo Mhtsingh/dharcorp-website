@@ -36,7 +36,7 @@
     margin-left: 12px;
     margin-top: 9px;
 }
-.line2{
+.linePro{
     width: 10rem;
     border: 5px solid blue;
     margin-bottom: 2rem;    
@@ -164,8 +164,10 @@ display:none;
 
 /*  */
 .container_wrap{
+    padding: 2rem 2rem;
     margin-top: 5rem;
-    /* background: grey; */
+    background:  #EFF2F7 55%;
+
 
 }
 .container_wrap h5{

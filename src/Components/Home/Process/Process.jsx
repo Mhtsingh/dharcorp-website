@@ -9,7 +9,7 @@ const Process = () => {
       <div className="container-fluid container_wrap text-center">
         <h5>|| OUR <span>PROCESS</span></h5>
         <h2>Our Working <span>Process</span></h2>
-        <div className="line2" />
+        {/* <div className="linePro"/> */}
         <div className="row">
           <div className="col-md-3 col-sm-6">
             <div className="serviceBox green">

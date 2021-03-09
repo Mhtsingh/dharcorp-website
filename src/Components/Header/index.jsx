@@ -10,7 +10,7 @@ const header = () => {
     <>
     <div className="container-fluid">
       <div className="row top_nav">
-            <div>
+            <div className="top-nav-contact">
                 <a><MdEmail/>support@dharcorp.com</a>
                 <a><MdPhoneAndroid/>+91-6280882955</a>
             </div>

@@ -5,9 +5,9 @@
 }
 
 .line{
-    color: #0077b6;
+    color: blue;
     width: 10rem;
-    border: 5px solid #0077b6;    
+    border: 5px solid blue;    
 }
 
 .team_wrap h5{
@@ -26,7 +26,7 @@
 
 .team h5{
     font-size: 2rem;
-    color: #0077B6;
+    color: blue;
 }
 .team h6{
     font-size: 1.5rem;
