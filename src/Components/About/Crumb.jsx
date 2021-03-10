@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom"
 import "../Breadcrum/Breadcrum.css";
 
 const index = () => {
@@ -9,10 +10,10 @@ const index = () => {
           <nav>
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="#">Home</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li className="breadcrumb-item">
-                <a href="#">About</a>
+                <NavLink to="/about" >About</NavLink>
               </li>
             </ol>
           </nav>

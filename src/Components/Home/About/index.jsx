@@ -1,10 +1,12 @@
 import React from "react";
 import "./About.css";
+import { useHistory } from 'react-router-dom';
 import about1 from "../../../Images/about1.jpg";
 import about2 from "../../../Images/about2.jpg";
 import about3 from "../../../Images/about3.jpg";
 
 const About = () => {
+  const history = useHistory();
   return (
     <>
       <div className="about">
@@ -17,36 +19,6 @@ const About = () => {
                         src={about1}
                         alt="about image"
                       />
-                {/* <div class="youtube-player" data-id="jssO8-5qmag"></div> */}
-                {/* <div className="col-lg-4 col-12 div_wrap">
-                  <div className="row">
-                    <div className="col-12 top_div">
-                      <img
-                        className="img_contain"
-                        src={about1}
-                        alt="about image"
-                      />
-                    </div>
-                    <div className="col-12">
-                      <div className="row">
-                        <div className="col-md-6 col-12 bottom_div_left">
-                          <img
-                            className="img_contain1"
-                            src={about2}
-                            alt="about image"
-                          />
-                        </div>
-                        <div className="col-md-6 col-12 bottom_div_right">
-                          <img
-                            className="img_contain1"
-                            src={about3}
-                            alt="about image"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div className="col-md-6 about_cont">
@@ -63,7 +35,7 @@ const About = () => {
                 with our clients.
               </p>
 
-              <button type="button" className="button_lgt_drk">
+              <button type="button" onClick={() => history.push('/contact')} className="button_lgt_drk">
                 HOW WE WORK
               </button>
             </div>

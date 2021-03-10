@@ -1,5 +1,6 @@
 import React from "react";
 import "./Story.css";
+import {NavLink} from "react-router-dom"
 import about1 from "../../../Images/about1.jpg";
 import about2 from "../../../Images/about2.jpg";
 import about3 from "../../../Images/about3.jpg";
@@ -27,9 +28,9 @@ const index = () => {
               clients.
             </p>
             <div>
-              <a type="button" href="/contact" className="button_str_blu">
+              <NavLink type="button" to="/contact" className="button_str_blu">
                 STAY IN TOUCH
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="col-lg-5 col-12 div_wrap">

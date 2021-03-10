@@ -17,7 +17,7 @@ const Feature = () => {
             are. Magni, error.
           </p>
         </div>
-    <div class="row">
+    <div className="row">
     <div className="col-md-4 col-sm-6 column-box">
             <div className="featureBox">
                 <div className="feature-icon">
@@ -97,7 +97,7 @@ const Feature = () => {
             </div>
         </div>
     </div>
-    <div class="text-center button">
+    <div className="text-center button">
     <NavLink type="button" to="/service" className="button_str_blu">
      SEE ALL SERVICES
   </NavLink>

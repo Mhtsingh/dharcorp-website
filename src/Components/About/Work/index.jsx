@@ -3,7 +3,7 @@ import React from "react";
 const index = () => {
   return (
     <>
-      <div class="embed-responsive embed-responsive-21by9">
+      <div className="embed-responsive embed-responsive-21by9">
         <iframe
         width="560" height="315"
           className="embed-responsive-item"

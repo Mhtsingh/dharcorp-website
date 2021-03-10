@@ -53,8 +53,8 @@ const Footer = () => {
 
         <div className="footer-copyright py-3">
           <div className="social_icon">
-          Copyright ©2019 DharCorp, LLC. All rights reserved. | 
-               <NavLink to="/"> Privacy Policy</NavLink>
+          Copyright ©2021 DharCorp, LLC. All rights reserved. | 
+               {/* <NavLink to="/"> Privacy Policy</NavLink> */}
                <NavLink to=""> <FaFacebookSquare/></NavLink>
                <NavLink to=""> <FaTwitterSquare/></NavLink>
               <NavLink to=""> <FaInstagramSquare/></NavLink>
