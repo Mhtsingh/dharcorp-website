@@ -1,6 +1,5 @@
 import React from "react";
 import {useHistory}  from 'react-router-dom';
-import { FaTools, FaShieldAlt, FaLaptop, FaUserFriends } from "react-icons/fa";
 import "./Hero.css";
 import icon1 from '../../../Images/it.png'
 import icon2 from '../../../Images/shield.png'
@@ -83,25 +82,6 @@ const Index = () => {
             </div>
         </div>
     </section>
-      {/* <div className="container-fluid card_wrap">
-        <div className="card_one col-md-3 ">
-          <FaTools className="card_one_icon" />
-          <p>Provide All Kind of IT SERVICES</p>
-        </div>
-        <div className="card_one col-md-3 ">
-          <FaShieldAlt className="card_one_icon" />
-          <p>Solutions For All IT SECURITY</p>
-        </div>
-        <div className="card_one col-md-3 ">
-          <FaLaptop className="card_one_icon" />
-          <p>Solutions For YOUR BUSINESS</p>
-        </div>
-        <div className="card_one col-md-3 ">
-          <FaUserFriends className="card_one_icon" />
-          <p>Best Experience ENGINEERS</p>
-        </div>
-      </div> */}
-     
     </>
   );
 };

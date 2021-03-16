@@ -1,52 +1,84 @@
 import "./Whyus.css";
-import team from "../../../Images/team.jpg";
+import { FaHeadphonesAlt, FaRegSun, FaUserFriends } from "react-icons/fa";
 
-const Team = () => {
+const Whyus = () => {
   return (
     <>
-      <div className="Servteam">
-        <div className="container-fluid">
-          <div className="row align-items-center">
-            <div className="col-md-6 team_cont">
-              <h5>|| WHY CHOOSE US</h5>
-              <h6>We Provide Awesome Service</h6>
-              <hr className="line2" />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever.
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever.Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever.Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever.Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever.Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever.Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever.
-              </p>
+      <section className="coantiner bg-light pt-5 pb-5">
+        <div className="continer text-center content">
+          <h5>
+            || Why <span>Choose Us</span>
+          </h5>
+          <div className="whyLine" />
+          <div className="row">
+            <div className="col-lg-4 col-md-4 col-12">
+              <div className="Whycard">
+                <p>
+                  <FaHeadphonesAlt /> 24X7 Support
+                </p>
+                <h2>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </h2>
+              </div>
             </div>
-            <div className="col-md-6">
-              <img src={team} alt="Image" />
+            <div className="col-lg-4 col-md-4 col-12">
+              <div className="Whycard">
+                <p>
+                  <FaRegSun /> Trusted Services
+                </p>
+                <h2>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </h2>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12">
+              <div className="Whycard">
+                <p>
+                  <FaUserFriends /> Expert & Professional
+                </p>
+                <h2>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-lg-4 col-md-4 col-12">
+              <div className="Whycard">
+                <p>
+                  <FaHeadphonesAlt /> 24X7 Support
+                </p>
+                <h2>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </h2>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12">
+              <div className="Whycard">
+                <p>
+                  <FaRegSun /> Trusted Services
+                </p>
+                <h2>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </h2>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12">
+              <div className="Whycard">
+                <p>
+                  <FaUserFriends /> Expert & Professional
+                </p>
+                <h2>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </h2>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      {/* <div className="container-fluid team_wrap row">
-        <div className="col-lg-6 col-md-6 col-sm-12">
-          <img src={team} alt="out team" />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12">
-         
-        </div>
-      </div> */}
+      </section>
     </>
   );
 };
 
-export default Team;
+export default Whyus;

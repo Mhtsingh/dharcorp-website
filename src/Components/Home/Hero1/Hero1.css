@@ -1,0 +1,114 @@
+.page-hero-section {
+    position: relative;
+    height: 100vh;
+    background-image: url(../../../Images/bg_hero_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .page-hero-section h2 {
+    text-shadow: 2px 2px 4px rgb(219, 218, 218);
+    font-size: 4.3rem;
+    font-weight: 700;
+  }
+  .page-hero-section h1{
+    font-size: 2rem;
+  }
+  .page-hero-section h1 span {
+      margin-bottom: -20px;
+    font-weight: bold;
+  }
+  .page-hero-section .hero-caption {
+    height: 100%;
+  }
+
+  .hero_head{
+    /* animation: heading 7s steps(13,end) infinite; */
+    /* overflow: hidden;
+    white-space: nowrap; */
+    text-shadow: 2px 2px 4px rgb(175, 191, 219);
+    margin-top: -30px;
+    color: #7E3EFB;
+    font-size: 4.3rem;
+    font-weight: 900;
+  }
+
+  @keyframes heading{
+    0%{
+      width: 0ch;
+    }
+    100%{
+      width: 15ch;
+    }
+  }
+.hero_para{
+    font-size: 1.6rem;
+}
+
+  .rounded-btn{
+      margin-top: 20px;
+  background-color: #7E3EFB !important; 
+  border: none;
+  border-radius: 10px !important;
+  color: #fff !important;
+  border: 0.2rem solid #7E3EFB ;
+  padding: 19px 42px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px !important;
+  font-weight: bold;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.rounded-btn:hover{
+  background-color: #fff !important;
+  border: 2px solid #7E3EFB ;
+  color: #7E3EFB !important;
+ text-decoration: none;
+}
+
+.rounded-btn2{
+  background-color: transparent;
+  border: 0.2rem solid #7E3EFB ;
+  border-radius: 0.5rem ;
+  color: #7E3EFB;
+  padding: 19px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 0.5rem;
+ margin-left: 5rem;
+
+  }
+  .rounded-btn2:hover{
+    text-decoration: none;
+    background-color: #7E3EFB;
+    color: #fff;
+  }
+.banner-mage img{
+  object-fit: cover;
+  width: 700px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .hero_head{
+    animation: none;
+  }
+  .rounded-btn{ 
+    display: none;
+
+  }
+  .rounded-btn2{
+    display: none;
+  }
+  .page-hero-section{
+    margin-bottom: 10px;
+  }
+}

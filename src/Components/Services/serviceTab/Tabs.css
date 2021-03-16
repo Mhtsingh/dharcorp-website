@@ -1,97 +1,16 @@
-
-.choose_section{
-	width: 100%;
-	float: left;
-	margin-top: 40px;
-	margin-bottom: 60px;
+.sericeTab-cover{
+	padding: 5rem;
 }
 
-.choose_text{
-	width: 100%;
-	float: left;
-	text-align: center;
-	color: #030907;
-	font-weight: 600;
+.sericeTab-cover h2 span{
+		color: #7f3efb;
+		font-weight: bold;
 }
-.choose_section h2{
-	color:blue;
-}
-.choose_text span{
-	color: blue;
-	font-weight: 900;
-}
-.lineserv{
-	display: inline-block;
-    width: 10rem;
-    border: 5px solid blue;  
-}
-
-.lorem_text{
-	width: 100%;
-	float: left;
-	text-align: center;;
-}
-
-.choose_section_bot{
-	width: 100%;
-	margin-bottom: 2.5rem;	
-
-}
-
-.about_inner{
-	width: 100%;
-	height: 100%;
-	float: left;
-	margin-top: 10px;
-	margin-bottom: 10px;	
-	background-color: #ffffff;
-	border-radius: 20px;
-    border: 2px solid rgb(233, 233, 233) !important;
-	box-shadow:2px 2px 2px 2px rgb(233, 233, 233) ;
-}
-.totaly_text{
-width: 100%;
-float: left;
-text-align: center;
-margin-top: 20px;	
-color: #000;
-font-weight: bold;
-}
-.making_tetx{
-	width: 100%;
-	float: left;
-	text-align: center;
-	margin-top: 20px;	
-	color: #ffffff;
-	margin-left: 0;
-}
-.making{
-	width: 100%;
-	float: left;
-	text-align: center;
-	margin-top: 20px;	
-	color: #000;
-	margin-left: 0;
-
-}
-.iconServ{
-	text-align: center;
-	margin-top: 40px;
-}
-
-.iconServ img{
-	-webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
-    margin: auto;
-    position: relative;
-    margin-bottom: 30px;
-    background: blue;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-}
+.bottom-line{
+    display: inline-block;
+		height: 10px;
+		width: 10rem;
+		margin: 0;
+		padding: 0;
+		background: #7f3efb;
+	  }

@@ -1,248 +1,136 @@
-.process_wrap{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+.container-wrap{
+    background: url(../../../Images/anime.jpg);
+    opacity: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2rem; 
 }
-
-/*  */
-.outerCircle{
-    background: blue;
-    position: relative;
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
+.Process_wrap{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
-.midCircle{
-    position: absolute;
-    background: #023e8a;
-    border-radius: 50%;
-    height:50px;
-    width:50px;
-    margin-left: 5px;
-    margin-top: 5px;
-    /* margin: 0px 0px 0px 0px; */
-}
-.innerCicle{
-    position: absolute;
-    background: #03045e;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    margin-left: 5px;
-    margin-top: 5px;
-    /* margin: 0px 0px 0px 0px;  */
-}
-.innerCicle p{
+.Process_wrap h2{
     color: #fff;
-    margin-left: 12px;
-    margin-top: 9px;
 }
-.linePro{
-    width: 10rem;
-    border: 5px solid blue;
-    margin-bottom: 2rem;    
+  .Process_wrap h2 span{
+      color: #fff;
+    font-weight: bold;
   }
-
-  .dot_line{
-    background-repeat: repeat-x;
-    background-size: 3px 1px;
-    width: 10rem;
-    border: 1px dashed blue;
-  }
-  .circle_div{
-      align-items: center;
-    margin: auto;
-    width: 60%;
-    
-  }
-
-  .service-process {
-    /* background-color: #fafafa; */
-    position: relative;
-    
-}
-.wshipping-content-block {
-    padding: 80px 0px;
-}
-.service-process::before {
-    display: block;
-    content: "";
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    /* border-top: 1px dashed #cccccc; */
-    /* border-bottom: 1px dashed #fff; */
-    width: 100%;
-}
-*::after, *::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.section-title {
-    text-align: center;
-    padding-bottom: 30px;
-}
-.section-title h2 {
-    margin-top: 0px;
-    text-transform: uppercase;
-    color: #444444;
-}
-h2 {
-    font-size: 32px;
-    font-weight: 400;
-}
-p {
-    margin: 0 0 10px;
-}
-.process-row {
-    padding-top: 40px;
-}
-.process-step::before {
-    position: absolute;
-    right: -123px;
-    width: 110px;
-    height: 2px;
-    background-color: blue;
-    content: "";
-    top: 80px;
-    display: block;
-}
-
-.process-icon {
-    width: 164px;
-    text-align: center;
-    height: 164px;
-    float: left;
-    border-radius: 100%;
-    background-color: #fff;
-    border: 2px solid blue;
-    position: relative;
-    padding-top: 44px;
-    margin-bottom: 10px;
-}
-.process-icon span {
-    width: 56px;
-    height: 56px;
-    background-color: blue;
-    border: 2px solid #fff;
+  .Process_wrap h3{
     color: #fff;
-    line-height: 56px;
-    font-size: 28px;
-    position: absolute;
-    left: -30px;
-    top: 50%;
-    margin-top: -30px;
-    border-radius: 100%;
-    font-weight: 700;
-}
-.process-step p {
-    text-transform: uppercase;
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
+  
+  }
+  .Process_wrap span{
+    font-weight: bold;
+  }
+
+  .proline1{
+    display: inline-block;
+    height: 10px;
+    width: 10rem;
+    margin: 0;
+    padding: 0;
+    background: #fff;   
+  }
+
+
+.main-timeline:after{
+    content: '';
+    display: block;
     clear: both;
 }
-.process-step p {
-    margin-bottom: 0px;
-}
-p {
-    margin: 0 0 10px;
-}
-.process-step {
+.main-timeline .timeline{
+    width: calc(50% + 23px);
+    padding: 0 45px 0 0;
+    margin: 0 5px 0 0;
     float: left;
-    width: 164px;
-    margin-right: 14%;
+}
+.main-timeline .timeline-content{
+    color: #fff;
+    background: #026cd6;
+    text-align: left;
+    min-height: 140px;
+    padding: 20px 65px 20px 20px;
+    border: 7px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    display: block;
     position: relative;
 }
-.process-step:last-child {
-    margin-right: 0px;
-}
-.process-step:last-child::before
- {
-display:none;
-}
-
-/*  */
-.container_wrap{
-    padding: 2rem 2rem;
-    margin-top: 5rem;
-    background:  #EFF2F7 55%;
-
-
-}
-.container_wrap h5{
-    color: blue;
-    font-size: 1.5rem;
-}
-.container_wrap h5 span{
-    font-weight: bold;
-} 
-.container_wrap h2{
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-.container_wrap h2 span{
-    font-weight: 900;
-}
-.serviceBox{
-    color: #666;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    padding: 0 10px;
-}
-.serviceBox .service-icon{
-    color: blue;
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-icon{
+    color: #026cd6;
     background: #fff;
-    font-size: 60px;
-    line-height: 110px;
-    width: 130px;
-    height: 130px;
-    margin: 0 auto 50px;
-    border-radius: 50%;
-    border: 12px solid blue;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3) inset,0 15px 0 rgba(0,0,0,0.1);
-    position: relative;
-}
-.serviceBox .service-icon:before,
-.serviceBox .service-icon:after{
-    content: '';
-    background-color: blue;
-    height: 17px;
-    width: 17px;
-    border-radius: 50%;
-    transform: translateX(-50%);
+    font-size: 35px;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 90px;
+    border-radius: 40px 30px 80px/40px 20px 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transform: translateY(-50%);
     position: absolute;
-    left: 50%;
-    bottom: -33px;
+    right: -45px;
+    top: 50%;
+    z-index: 1;
 }
-.serviceBox .service-icon:after{
-    height: 12px;
-    width: 12px;
-    bottom: -50px;
+.main-timeline .title{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    margin: 0 0 5px;
 }
-.serviceBox .title{
-    color: blue;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 0 0 7px;
-}
-.serviceBox .description{
-    font-size: 15px;
-    line-height: 22px;
+.main-timeline .description{
+    color: rgba(255,255,255,0.85);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 0;
 }
 
-.serviceBox.orange .title{ color: #FA8231; }
-.serviceBox.green .service-icon{
-    color: blue;
-    border-color: blue;
-}
-.serviceBox.green .service-icon:before,
-.serviceBox.green .service-icon:after{
-    background-color: blue;
-}
-.serviceBox.green .title{ color: blue; }
 
-@media only screen and (max-width: 990px){
-    .serviceBox{ margin: 0 0 30px; }
+.main-timeline .timeline:nth-child(even){
+    width: calc(50% + 23px);
+    padding: 0 0 0 45px;
+    margin: 0 0 0 5px;
+    float: right;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content{ padding: 20px 20px 20px 65px; }
+.main-timeline .timeline:nth-child(even) .timeline-icon{
+    right: auto;
+    left: -45px;
+}
+.main-timeline .timeline:nth-child(4n+2) .timeline-content{ background: #ef590e; }
+.main-timeline .timeline:nth-child(4n+2) .timeline-icon{ color: #ef590e; }
+.main-timeline .timeline:nth-child(4n+3) .timeline-content{ background: #9231c6; }
+.main-timeline .timeline:nth-child(4n+3) .timeline-icon{ color: #9231c6; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-content{ background: #31c45a; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-icon{ color: #31c45a; }
+@media screen and (max-width:576px){
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        width: 100%;
+        padding: 0 45px 0 0;
+        margin: 0 0 30px;
+    }
+    .main-timeline .timeline:nth-child(even){ padding: 0 0 0 45px; }
+}
+@media screen and (max-width:479px){
+    .main-timeline .timeline{ padding: 35px 20px 0 0; }
+    .main-timeline .timeline:nth-child(even){ padding: 35px 0 0 20px; }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content{
+        padding: 55px 15px 20px;
+    }
+    .main-timeline .timeline-icon{
+        transform: translateY(0);
+        top: -40px;
+        right: -25px;
+    }
+    
+    .main-timeline .timeline:nth-child(even) .timeline-icon{ left: -25px; }
 }

@@ -1,0 +1,49 @@
+.hero-card-wrap{
+  padding-left: 50px !important;
+}
+  .fg-gray:hover{
+    color: #fff !important;
+  }
+  .fg-gray br{
+    padding-top: 10px;
+  }
+  .fs-small {
+    font-size: 16px !important;
+  }
+  .shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(56, 51, 64, 0.115) !important;
+  }
+ 
+  .cardHome{
+    right: 0 !important;
+      width: 80%;
+      height: 100%;
+      background: #fff !important;
+      border-radius: 10px !important;
+
+  }
+
+  .cardHome{
+  position: relative;
+  color: #7F3EFB;
+  display: inline-block;
+  font-size: 5rem;
+  transition: all 0.2s ease 0s;
+  }
+ 
+  .wow{padding-left: 10px}
+
+  .cardHome:hover {
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+     0 24px 46px var(#7F3EFB);
+    background: #7F3EFB !important;
+    color: #fff !important;
+    transform: scale(1.1);
+  }
+  .col-lg-3{
+    width: 70% !important;
+  }
+  /* .space{
+    padding-top: 10px;
+  } */
+ 

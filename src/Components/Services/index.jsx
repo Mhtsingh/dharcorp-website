@@ -1,5 +1,6 @@
 import React from "react";
-import Service from "./serviceTab";
+import Service from "./Service/Service";
+import Servhead from "./serviceTab";
 import Whyus from "./Whyus";
 import Tools from "./Tools";
 import Crumb from "./Crumb";
@@ -9,8 +10,10 @@ const services = () => {
     <div>
       <Crumb />
       <Service />
-      <Whyus />
+      <Servhead/>
       <Tools />
+      <Whyus />
+
     </div>
   );
 };

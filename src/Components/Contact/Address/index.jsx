@@ -24,11 +24,11 @@ const index = () => {
       </div>
       <div className="choose_section_bot">
         <div className="container">
-          <div className="row">
-            <div className="col-sm-4">
+          <div className="row pb-5">
+            <div className=" col-card-wrap col-sm-4">
               <div className="about_inner">
                 <div className="icon">
-                  <a href="#">
+                  <a>
                     <img src={icon1} alt="globe" />
                   </a>
                 </div>
@@ -38,10 +38,10 @@ const index = () => {
                 </p>
               </div>
             </div>
-            <div className="col-sm-4">
+            <div className=" col-card-wrap col-sm-4">
               <div className="dedicated">
                 <div className="icon">
-                  <a href="#">
+                  <a>
                     <img src={icon2} alt="web" />
                   </a>
                 </div>
@@ -54,7 +54,7 @@ const index = () => {
             <div className="col-sm-4">
               <div className="about_inner">
                 <div className="icon">
-                  <a href="#">
+                  <a>
                     <img src={icon3} alt="mobile" />
                   </a>
                 </div>

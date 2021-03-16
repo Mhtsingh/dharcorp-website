@@ -8,7 +8,7 @@ const index = () => {
            <div className="container-fluid"> 
             <div className="row">
             <div className="col-md-6">
-                  <img src={about1} alt="image" />
+                  <img src={about1} alt="about" />
                </div>
                <div className="col-md-6 blog_wrap">
                   <div className="form from_wrap">

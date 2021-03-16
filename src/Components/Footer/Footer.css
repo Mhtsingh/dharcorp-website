@@ -3,7 +3,6 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    /* background-color: #3525DB; */
     color: white;
     text-align: center;
     z-index: -1;
@@ -11,7 +10,7 @@
   .footer_wrap{
     margin-top: 2rem;
     position: relative;
-    background: #3525DB; 
+    background: #7f3efb; 
     color: #fff;
   }
 
@@ -31,4 +30,164 @@
   {
     font-size: 1.5rem;
   }
+  .footer-link{
+    display: flex;
+    align-items: center;
+    list-style-type:none
+  }
+/*  */
+
+.site-footer {
+  margin-top: 50px;
+	position: relative;
+	background-color:#7F3EFB;
+	width: 100%;	
+	bottom: 0; 
+}
+
+.site-footer .container {
+	max-width: 85%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.site-footer .container h1 {
+	font-size: 40px;
+}
+
+.site-footer .container h2 {
+	font-size: 40px;
+	float: right;
+}
+
+.site-footer .grid-container a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 16.25px;
+}
+
+.site-footer .grid-item {
+	padding: 10px;
+	color: #fff;
   
+}
+
+
+.site-footer .grid-container .inner-grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: left;
+}
+
+.site-footer .container hr { 
+	display: block; 
+	height: 1px;
+	border: 0; border-top: 1px solid #fff;
+	margin: 1px; 
+	padding: 0; 
+}
+
+.site-footer .container p {
+	font-size: 14px;
+	text-align: right;
+	color: #fff;
+	font-weight: 500;
+}
+
+.site-footer .container .logo-img {
+	width: 150px;
+	height: 80px;
+	cursor: pointer;
+}
+
+.site-footer .grid-container .grid-item .social-buttons {
+	/* padding-top: 5px; */
+}
+
+.site-footer .grid-container .grid-item .social-buttons a {
+	display: inline-flex;
+	text-decoration: none;
+	font-size: 2rem;
+	width: 60px;
+	height: 60px;
+	color: #7F3EFB;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 0 8px;
+}
+
+
+.site-footer .grid-container .grid-item .social-buttons a i{
+	transition: 0.3s ease-in;
+}
+
+.site-footer .grid-container .grid-item .social-buttons a:hover i {
+	color: #fff;
+	background: linear-gradient(45de,#000,#000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transform: scale(1.5);
+}
+
+.circle-icon {
+    background: #fff;
+    padding:12px;
+    border-radius: 50%;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Screen Sizes] */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.site-footer {
+		bottom: 0; 
+	}
+
+	.site-footer .grid-container {
+		display: grid;
+		grid-template-columns: 400px;
+	}
+
+	.site-footer .grid-container .inner-grid-container {
+		display: grid;
+		grid-template-columns: auto auto ;
+		text-align: left;
+	}
+
+
+}
+
+/*========================================================*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	.site-footer {
+		bottom: 0;
+	}
+
+	.site-footer .grid-container {
+		display: grid;
+		grid-template-columns: 350px auto 350px;
+	}
+
+	.site-footer .grid-container .inner-grid-container{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		text-align: left;
+	}
+
+}
+
+
+
+

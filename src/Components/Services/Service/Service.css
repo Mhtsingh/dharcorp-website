@@ -1,0 +1,44 @@
+
+
+.bg-wrapp{
+  background-color: #f2f2f2;  
+}
+.service {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+.service h6{
+    font-size: 2rem;
+    color: #7f3efb;
+
+}
+
+@media (min-width: 768px) {
+    .service .container-fluid {
+        padding: 0;
+    }
+    
+    .service .row {
+        margin: 0;
+    }
+    
+    .service .col-md-6:first-child {
+        padding: 0 60px;
+    }
+    
+    .service .col-md-6:last-child {
+        padding: 0;
+    }
+}
+.service img {
+    max-width: 100%;
+    border-radius: 30px 0 0 30px;
+}
+
+/* @media (max-width: 767.98px) {
+    .service img {
+        margin-top: 30px;
+        border-radius: 0 0 30px 30px;
+    }
+} */

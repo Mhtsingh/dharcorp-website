@@ -1,9 +1,10 @@
 /* Hero Section start */
 
 .hero_wrap{
-  background: blue;
-  background-image: url('../../../Images/crumb.png');
-    /* background-color:#5298E1; */
+    background: blue;
+    background-image: url('../../../Images/crumb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -30,26 +31,28 @@
     background-color: #fff; 
     border: none;
   border-radius: 0.5rem;
-  color: blue ;
-  padding: 15px 32px;
+  color: blue;
+  padding: 24px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
 }
 
 .button_lgt{
     background-color: transparent;
-    border: 0.1rem solid #fff  ;
+    border: 0.2rem solid #fff  ;
   border-radius: 0.5rem ;
   color: #fff ;
-  padding: 15px 32px;
+  padding: 19px 42px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
     margin-right: 0.5rem;
     margin-left: 5rem;
 }
@@ -109,7 +112,7 @@
   .features-small-item {
     cursor: pointer;
     display: block;
-    background: #FFFFFF;
+    background: #0077b6;
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -135,14 +138,11 @@
     margin: auto;
     position: relative;
     margin-bottom: 30px;
-    /* background: #5298E1; */
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
   }
-  /* .features-small-item:hover .icon {
-    background-color: #20BF6B;
-  } */
+ 
   
   .features-small-item .icon i {
     font-size: 18px;

@@ -2,22 +2,21 @@ import React from "react";
 import "./Story.css";
 import {NavLink} from "react-router-dom"
 import about1 from "../../../Images/about1.jpg";
-import about2 from "../../../Images/about2.jpg";
-import about3 from "../../../Images/about3.jpg";
+
 
 const index = () => {
   return (
     <>
       <div className="container-fluid story_wrap ">
         <div className="row">
-          <div className="col-lg-7 col-12 left_col">
+          <div className="col-lg-6 col-12 left_col">
             <h5>
               || OUR <span>STORY</span>
             </h5>
             <h3>
               DHARCORP is best for<span> Technology Provide Solutions</span>
             </h3>
-            <hr className="line" />
+            <div className="line" />
             <p>
               DharCorp is a leading provider of software development and
               business management solutions. DharCorp can develop customized
@@ -33,29 +32,9 @@ const index = () => {
               </NavLink>
             </div>
           </div>
-          <div className="col-lg-5 col-12 div_wrap">
-            <div className="row">
-              <div className="col-12 top_div">
-                <img className="img_contain" src={about1} alt="about image" />
-              </div>
-              <div className="col-12">
-                <div className="row">
-                  <div className="col-md-6 col-12 bottom_div_left">
-                    <img
-                      className="img_contain1"
-                      src={about2}
-                      alt="about image"
-                    />
-                  </div>
-                  <div className="col-md-6 col-12 bottom_div_right">
-                    <img
-                      className="img_contain1"
-                      src={about3}
-                      alt="about image"
-                    />
-                  </div>
-                </div>
-              </div>
+          <div className="col-lg-6 col-12">
+            <div className="box">
+             <img src={about1} alt="about"/>
             </div>
           </div>
         </div>
