@@ -21,7 +21,7 @@ class Navbar extends Component {
             </NavLink>
           </h1>
           <div className="menu-icon" onClick={this.handleClick}>
-            <i activeClassName="menu_active"
+            <i 
               className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
             ></i>
           </div>

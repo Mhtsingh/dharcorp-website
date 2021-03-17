@@ -1,0 +1,39 @@
+.menu_active{
+    font-weight: bold;
+    border-bottom:0.2rem solid #7f3efb;
+}
+/* .nav_div{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+.navbar_wrap{
+    justify-content: flex-end;
+    
+}
+.navbar_wrap li{
+    margin-left:2rem;
+    margin-right:2rem;
+}
+.nav-item a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #7f3efb;
+}
+.nav-item:hover{
+    text-decoration: underline;
+
+}
+
+.social_icon_head a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon{
+    font-size: 25px;
+    color: #7f3efb;
+    border: 2px solid #7f3efb ;
+    border-radius: 10px;
+}

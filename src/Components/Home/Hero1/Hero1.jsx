@@ -31,7 +31,7 @@ const Hero1 = () => {
               </div>
               <div className="col-lg-6 col-md-6 d-none d-lg-block wow zoomIn">
                 <div className="banner-mage">
-                  <img src={banner} alt="banner image" />
+                  <img src={banner} alt="banner" />
                 </div>
               </div>
             </div>
