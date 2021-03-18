@@ -10,7 +10,7 @@ const index = () => {
           <p>some sub heading regarding service</p>
           <div className="serv-line"/>
       </div>
-      <div className="container">
+      <div className="container-fluid container-wrapper">
       <div className="row wrapper-list">
           <div className="col-lg-4 col-md-4 col-12">
             <h5> <FaHtml5/> Web <span>Design</span></h5>

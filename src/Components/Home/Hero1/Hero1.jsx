@@ -12,7 +12,7 @@ const Hero1 = () => {
             <div className="row align-items-center h-100">
               <div className="col-lg-6 col-md-6 col-12 ">
                 <div className="badge mb-2"></div>
-                <h1 className="mb-4">
+                <h1 className="mb-4 mt-5">
                   WELCOME TO <span>DHARCORP</span>
                 </h1>
                 <h2 className="mb-4">Best Platform to Grow </h2>
@@ -22,10 +22,10 @@ const Hero1 = () => {
                   decades of experience representing clients of virtually all
                   sizes and across many industries.
                 </p>
-                <NavLink to="/contact" className="rounded-btn">
+                <NavLink to="/contact" className="rounded-btn mb-2 ">
                   CONTACT US
                 </NavLink>
-                <NavLink to="/about" className="rounded-btn2">
+                <NavLink to="/about" className="rounded-btn2 mb-2">
                   ABOUT US
                 </NavLink>
               </div>

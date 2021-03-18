@@ -32,33 +32,32 @@ const Footer = () => {
               <div className="grid-item">
                 <NavLink to="/">Privacy Policy</NavLink>
               </div>
-              
             </div>
 
             <div className="grid-item">
               <div className="social-buttons">
-                <a href="">
+                <a href="https://www.instagram.com/dhar_crop/">
                   <i className="circle-icon"><FaInstagram/></i>
                 </a>
-                <a href="">
+                <a href="https://www.facebook.com/DharCorp-109339644546492">
                   <i className=" circle-icon"><FaFacebookF/></i>
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/company/65433157/admin/">
                   <i className=" circle-icon"><FaLinkedinIn/></i>
                 </a>
-                <a href="">
+                {/* <a href="">
                   <i className=" circle-icon"><FaTwitter/></i>
-                </a>
+                </a> */}
               </div>
             </div>
-          </div>
-          <hr />
-
+          </div>       
+        </div>
+        <div className="lw-footer">
           <p>
             Copyright © 2021 | DharCorp pvt
             ltd All rights reserved
           </p>
-        </div>
+          </div>
       </footer>
     </>
   );

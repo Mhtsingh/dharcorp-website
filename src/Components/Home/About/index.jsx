@@ -23,9 +23,9 @@ const About = () => {
             </h5>
             <h3>
               DHARCORP is best for
-              <span>
+              <span> 
+              <br />
                 Technology
-                <br />
                 Provide Solutions
               </span>
             </h3>

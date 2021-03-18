@@ -1,9 +1,9 @@
 .hero-card-wrap{
-  padding-left: 50px !important;
+  padding-left: 82px !important;
 }
-  .fg-gray:hover{
+.fg-gray:hover{
     color: #fff !important;
-  }
+}
   .fg-gray br{
     padding-top: 10px;
   }
@@ -20,6 +20,7 @@
       height: 100%;
       background: #fff !important;
       border-radius: 10px !important;
+      border: 1px solid #cbd9e4!important
 
   }
 

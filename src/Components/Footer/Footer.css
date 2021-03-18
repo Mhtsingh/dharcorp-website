@@ -10,7 +10,7 @@
   .footer_wrap{
     margin-top: 2rem;
     position: relative;
-    background: #7f3efb; 
+    background: #000; 
     color: #fff;
   }
 
@@ -40,7 +40,7 @@
 .site-footer {
   margin-top: 50px;
 	position: relative;
-	background-color:#7F3EFB;
+	background-color:#000;
 	width: 100%;	
 	bottom: 0; 
 }
@@ -90,11 +90,13 @@
 	padding: 0; 
 }
 
-.site-footer .container p {
-	font-size: 14px;
-	text-align: right;
+.lw-footer p {
+	background: #7F3EFB;
+	font-size: 18px;
+	text-align: center;
 	color: #fff;
 	font-weight: 500;
+	margin-bottom: 0 !important;
 }
 
 .site-footer .container .logo-img {
@@ -111,9 +113,9 @@
 	display: inline-flex;
 	text-decoration: none;
 	font-size: 2rem;
-	width: 60px;
-	height: 60px;
-	color: #7F3EFB;
+	width: 20%;
+	height: 100%;
+	color: #000;
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -154,7 +156,7 @@
 
 	.site-footer .grid-container {
 		display: grid;
-		grid-template-columns: 400px;
+		grid-template-columns: 100%;
 	}
 
 	.site-footer .grid-container .inner-grid-container {
@@ -184,6 +186,7 @@
 		display: grid;
 		grid-template-columns: auto auto auto auto;
 		text-align: left;
+		padding-top: 20px;
 	}
 
 }

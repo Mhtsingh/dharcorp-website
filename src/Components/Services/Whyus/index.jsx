@@ -13,32 +13,35 @@ const Whyus = () => {
           <div className="row">
             <div className="col-lg-4 col-md-4 col-12">
               <div className="Whycard">
-                <p>
-                  <FaHeadphonesAlt /> 24X7 Support
-                </p>
+              <FaHeadphonesAlt/> 
                 <h2>
-                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                 24X7 Support
                 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12">
               <div className="Whycard">
-                <p>
-                  <FaRegSun /> Trusted Services
-                </p>
+              <FaRegSun />
                 <h2>
-                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                  Trusted Services
                 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12">
               <div className="Whycard">
-                <p>
-                  <FaUserFriends /> Expert & Professional
-                </p>
+              <FaUserFriends />
                 <h2>
-                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                  Expert And Professional
                 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </p>
               </div>
             </div>
           </div>
@@ -46,32 +49,35 @@ const Whyus = () => {
           <div className="row">
             <div className="col-lg-4 col-md-4 col-12">
               <div className="Whycard">
-                <p>
-                  <FaHeadphonesAlt /> 24X7 Support
-                </p>
+              <FaHeadphonesAlt /> 
                 <h2>
-                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                 24X7 Support
                 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12">
               <div className="Whycard">
-                <p>
-                  <FaRegSun /> Trusted Services
-                </p>
+              <FaRegSun />
                 <h2>
-                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                   Trusted Services
                 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12">
               <div className="Whycard">
-                <p>
-                  <FaUserFriends /> Expert & Professional
-                </p>
+              <FaUserFriends />
                 <h2>
-                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                   Expert And Professional
                 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consecte tur adipisicing elit.
+                </p>
               </div>
             </div>
           </div>

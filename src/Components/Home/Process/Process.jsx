@@ -15,7 +15,7 @@ const Process = () => {
     <>
     <div className="container-fluid container-wrap">
     <div className="Process_wrap">
-          <h3>|| OUR <span>PROCESS</span></h3>
+          {/* <h3>|| OUR <span>PROCESS</span></h3> */}
           <h2>Our Working <span>Process</span></h2>
           <div className="proline1"/>
         </div>

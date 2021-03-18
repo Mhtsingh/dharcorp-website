@@ -7,7 +7,7 @@ const index = () => {
     <>
       <div className="container-fluid wrapper">
         <div className="text-center text">
-          <nav>
+          {/* <nav>
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
                 <NavLink to="/">Home</NavLink>
@@ -16,7 +16,7 @@ const index = () => {
                 <NavLink to="/contact">Contact Us</NavLink>
               </li>
             </ol>
-          </nav>
+          </nav> */}
           <h1>Contact Us</h1>
         </div>
       </div>

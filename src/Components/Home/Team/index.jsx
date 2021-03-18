@@ -13,7 +13,7 @@ const Team = () => {
               <div className="row">
                 <div className="col-12 left-text-wrap">
                   <h2>
-                    Our Best <span>TEAM</span>
+                    TEAM AT<span> DHARCORP</span>
                   </h2>
                   <p>
                     DharCorp is a leading provider of software development and
@@ -51,8 +51,11 @@ const Team = () => {
                 <div className="col-6 First-col-wrapper">
                   {/* <h1>rightleft col 1</h1> */}
                   <img className="image-wrapp" src={team1} alt="" />
-                {/* <div className="details"><h2>Rahul Dogra <span>UI UX Developer</span></h2></div> */}
-
+                  <div className="details-wrap">
+                    <div className="details">
+                      Rahul Dogra <span>UI UX Developer</span>
+                    </div>
+                  </div>
                 </div>
                 <div className="col-6">
                   <div className="row">

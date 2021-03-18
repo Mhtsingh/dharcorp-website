@@ -4,6 +4,7 @@ import Servhead from "./serviceTab";
 import Whyus from "./Whyus";
 import Tools from "./Tools";
 import Crumb from "./Crumb";
+import ToolTab from './ToolTab/ToolTab'
 
 const services = () => {
   return (
@@ -11,7 +12,8 @@ const services = () => {
       <Crumb />
       <Service />
       <Servhead/>
-      <Tools />
+      {/* <Tools /> */}
+      <ToolTab/>
       <Whyus />
 
     </div>
